@@ -1,6 +1,9 @@
 -- the colorcheme does not have .setup() function thus we configure it like this.
 return {
-  { "luisiacc/gruvbox-baby" },
+  {
+    "luisiacc/gruvbox-baby",
+  },
+
   {
     "LazyVim/LazyVim",
     opts = {
