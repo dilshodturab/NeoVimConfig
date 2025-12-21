@@ -7,5 +7,3 @@ local opts = { noremap = true, silent = true }
 
 -- Delete a single character without copying into register
 vim.keymap.set("n", "x", '"_x', opts)
-
--- Toggle line wrapping
