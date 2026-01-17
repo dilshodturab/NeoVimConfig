@@ -4,6 +4,8 @@ return {
     picker = {
       sources = {
         explorer = {
+          hidden = false,
+          ignored = true,
           layout = {
             layout = {
               position = "right", -- Change to "left", "top", "bottom" as desired
@@ -19,6 +21,11 @@ return {
             },
           },
         },
+        files = {
+          hidden = true,   -- show dotfiles in fuzzy finder
+          ignored = false, -- optional: show gitignored files
+        },
+
       },
     },
     -- Other snacks options...
